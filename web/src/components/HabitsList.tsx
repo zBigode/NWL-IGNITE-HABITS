@@ -59,7 +59,7 @@ export function HabitsList({ date, onCompletedChanged}: HabitsListProps) {
   }
 
   return (
-    <div className="mt-6 flex flex-col gap-3">
+    <div className="mt-6 flex flex-col gap-3 overflow-y-scroll max-h-[80px]">
       {habitsInfo?.possibleHabits.map((habit) => {
         return (
           <Checkbox.Root
