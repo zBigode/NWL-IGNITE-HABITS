@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "soma.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
